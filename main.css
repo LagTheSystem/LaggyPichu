@@ -1743,15 +1743,6 @@
 :root .ready__61f2f + .text__32559 {
   top: 82px;
 }
-:root .ready__61f2f + .text__32559::before {
-  content: "";
-  position: absolute;
-  bottom: 100px;
-  left: 50px;
-  width: 200px;
-  height: 200px;
-  background: var(--jumping-gif) center/80% no-repeat;
-}
 :root .container__871ba[style*="background-color: var(--green-360)"] {
   background-color: var(--background-accent) !important;
 }
@@ -1848,17 +1839,6 @@
     color: var(--text-normal);
     border-radius: var(--border-radius);
     overflow: hidden;
-  }
-  .container__037ed::before {
-    content: "";
-    position: fixed;
-    top: 220px;
-    bottom: 85px;
-    right: 70px;
-    z-index: -1;
-    width: 300px;
-    border-radius: var(--border-radius);
-    background: var(--jumping-gif) bottom/40% no-repeat;
   }
   .guilds__2b93a + :nth-child(2) {
     margin-right: 450px;

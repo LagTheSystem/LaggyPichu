@@ -1,21 +1,13 @@
 /**
-* @name LilyPichu
-* @author Nyria#3863
-* @description A theme based on @Melonturtle_ stream design
-* @invite rtBQX5D3bD
-* @version 1.4
-* @donate https://ko-fi.com/nyria
+* @name LaggyPichu
+* @author LagTheSystem
+* @description Fork of LilyPichu by Nyria
+* @version 1.0
 */
-@import url("https://nyri4.github.io/LilyPichu/main.css");
-
-/* Remove decorations */
-@import url("https://nyri4.github.io/LilyPichu/stuff/overlay.css");
+@import url("https://raw.githack.com/LagTheSystem/LilyPichu/main/main.css");
 
 :root {
   /* --- User variables --- */
-
-  /* Jumping GIF */
-  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
 
   /* Background (if you want an image replace it by : 
 

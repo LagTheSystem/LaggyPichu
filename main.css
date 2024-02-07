@@ -1334,6 +1334,7 @@
     width: 320px;
     min-width: unset;
     background-color: var(--background-primary);
+    border-radius: var(--border-radius)
   }
   :root .profilePanel__12596 {
     position: fixed;

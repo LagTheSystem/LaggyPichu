@@ -1787,9 +1787,15 @@
   .container__037ed {
     overflow: visible;
   }
+  .membersWrap__90226 {
+    height: 800px;
+    margin-top: -200px;
+    border-radius: 20px;
+  }
   .membersWrap__90226 .members__9f47b {
     width: 100%;
     background-color: var(--background-primary);
+    border-radius: 20px !important;
   }
   .membersWrap__90226 .members__9f47b .content__23cab {
     min-height: 1000px;

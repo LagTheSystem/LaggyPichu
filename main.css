@@ -1,12 +1,12 @@
 @import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
-:root .container_b181b6 {
+:root [class*=content] > [class*=container]:has(> [class*=grid]) {
   background: var(--background-primary);
 }
-:root .container_b181b6 .mainCard__8a660 {
+:root [class*=content] > [class*=container]:has(> [class*=grid]) [class*=mainCard] {
   background-color: var(--background-secondary);
 }
-:root .threadSidebar-1o3BTy {
+:root .chatLayerWrapper__1b344 .container__694a1 {
   position: fixed;
   top: 220px;
   bottom: 85px;
@@ -18,10 +18,10 @@
   padding-bottom: 26px;
   overflow: visible;
 }
-:root .threadSidebar-1o3BTy::-webkit-scrollbar {
+:root .chatLayerWrapper__1b344 .container__694a1::-webkit-scrollbar {
   margin-right: 50px;
 }
-:root .threadSidebar-1o3BTy::before {
+:root .chatLayerWrapper__1b344 .container__694a1::before {
   content: "Thread";
   position: absolute;
   top: -60px;
@@ -37,7 +37,7 @@
   background-color: var(--background-secondary);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
 }
-:root .threadSidebar-1o3BTy::after {
+:root .chatLayerWrapper__1b344 .container__694a1::after {
   content: "";
   position: fixed;
   bottom: 85px;
@@ -254,12 +254,13 @@
   opacity: 1;
 }
 
-:root .content__4bf10 .sidebar_ded4b5 {
+:root [class*=content] [class*=sidebar] {
   border-radius: 0;
 }
-:root .wrapper__7bcde,
-:root .container-32HW5s {
+:root [class*=content] [class*=sidebar] [class*=scroller] [class*=wrapper],
+:root [class*=content] [class*=sidebar] .container-32HW5s {
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 :root .content_b60865 {
   border-radius: var(--border-radius);
